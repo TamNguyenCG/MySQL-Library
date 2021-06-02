@@ -1,0 +1,23 @@
+{
+  "name": "vendor_name/demo",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "tamnguyen",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\Database\\": "app/database",
+      "App\\": "app"
+    },
+    "require": {
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
